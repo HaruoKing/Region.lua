@@ -6,7 +6,7 @@ if lang == "en" or lang == "kor" then
 t[#t+1] = LoadFont("region 20px")..{
 	InitCommand=function(s) 
 	--The only thing that you have to do, is change the region in English on this part:
-	s:settext("CHANGE ME!")
+	s:settext("USA")
 	-- Now you have your exactly region!.
 	s:zoom(1):y(1):maxwidth(70) end,
 };
